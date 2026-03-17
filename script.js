@@ -82,7 +82,7 @@ function calculateMarks() {
     outputBox.className = "alert alert-success mt-3 mb-0";
     outputBox.innerHTML = ``
 
-    ✅ Result Summary
+    `✅ Result Summary
     Name: ${name}
     PW1: ${pw1} / 100
     PW2: ${pw2} / 100
@@ -91,6 +91,6 @@ function calculateMarks() {
     Average: ${average.toFixed(2)} / 100
     Percentage: ${percentage.toFixed(2)}%
     Grade: ${grade}
-    ``;
+    ``;`
 }
 
